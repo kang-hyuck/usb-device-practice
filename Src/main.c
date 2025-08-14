@@ -1,6 +1,8 @@
+#include "Helpers/logger.h"
 
 int main(void)
 {
-    /* Loop forever */
+	log_info("Entry Point.");
+
 	for(;;);
 }
