@@ -17,7 +17,7 @@ uint32_t SystemCoreClock = MHZ(72);  // 72 MHz
  * MCO1 Prescaler = 2
  */
 
-static void ConfigureClock()
+static void configure_clock()
 {
 	/**********************  Flash  **********************/
 	/*
@@ -67,6 +67,6 @@ static void ConfigureClock()
 
 void SystemInit(void)
 {
-	ConfigureClock();
+	configure_clock();
 }
 
